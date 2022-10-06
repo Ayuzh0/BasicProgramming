@@ -1,0 +1,13 @@
+a=int(input('Enter first no.'))
+b=int(input('Enter second no.'))
+c=a
+a=b
+b=c
+print('First no. ={0}'.format(a)) 
+print('Second no. ={0}'.format(b))
+#print('First no. =',a)
+a=a+b
+b=a-b
+a=a-b
+print('First no. =',a)
+print('Second no.=',b)

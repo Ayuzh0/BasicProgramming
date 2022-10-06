@@ -1,0 +1,5 @@
+a,b=input("Enter a and b\n").split()
+print("value of a =",a)
+print("value of b= ",b)
+s=int(a)+int(b)
+print("sum= ",s)
